@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="appHeading">TIC TAC TOE</string>
+    <string name="btnPlay">PLAY</string>
+    <string name="btnExit">EXIT</string>
+    <string name="player1Name">Player 1</string>
+    <string name="player2Name">Player 2</string>
+    <string name="enterPlayerNames">Enter Player Name</string>
+    <string name="btnStart">START</string>
+    <string name="nameHint">Enter your name</string>
+    <string name="ivTicTacToe">TicTacToe</string>
+
+    <!-- Player Setup -->
+    <string name="errorEnterName">Please enter your names to continue</string>
+    <string name="close">CLOSE</string>
+
+    <!-- Game Display -->
+    <string name="home">HOME</string>
+    <string name="reset">RESET</string>
+
+    <string name="confirm">PLEASE CONFIRM</string>
+    <string name="leaveGame">Leave current game?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="draw">DRAW MATCH</string>
+
+</resources>

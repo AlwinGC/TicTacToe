@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tictactoe_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTicTacToe"
+        android:layout_width="286dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="-10"
+        android:shadowDy="4"
+        android:shadowRadius="1"
+        android:text="@string/appHeading"
+        android:textAlignment="center"
+        android:textColor="#E1FF5722"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPlay"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button_type"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/btnPlay"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTicTacToe" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnExit"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button_type"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/btnExit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTicTacToe" />
+
+    <ImageView
+        android:id="@+id/ivTicTacToe"
+        android:layout_width="154dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:contentDescription="@string/ivTicTacToe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTicTacToe"
+        app:srcCompat="@drawable/tictactoe" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
